@@ -21,7 +21,7 @@ The container will begin starting and creating a new private Stellar network.
 Eventually, you will see output like this:
 
 ```$bash
-... lines omitted ... 
+... lines omitted ...
 2017-10-28 22:40:47,205 INFO success: postgresql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2017-10-28 22:40:47,205 INFO success: stellar-core entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2017-10-28 22:40:47,205 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
@@ -86,7 +86,7 @@ Since this is a one-node network, you can change any properties by using the `up
 By default, the network is configured to match the stellar production network:
  * Protocol version 9
  * Base reserve 0.5 XLM
- 
+
 If you wanted to change the fee to 0.00002 XLM and the base reserve to 0.25 XLM
 
 ```bash
@@ -103,8 +103,8 @@ For more information on what upgrades you can set, see "upgrades" here: https://
 
 ## Included Software Versions
 
- * Stellar Core 10.0.0-685-1fc018b4
- * Horizon 0.15.1
+ * Stellar Core 11.1.0-931-324c1bd6
+ * Horizon 0.18.0
  * Bridge 0.0.31
  * Friendbot 0.0.1
 

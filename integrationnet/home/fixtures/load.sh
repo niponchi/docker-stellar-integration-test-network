@@ -30,7 +30,7 @@ fi
 # Apply protocol upgrades and match current production network
 # Protocol version 9
 # Base reserve 0.5 XLM (5000000 stroops)
-stellar-core --c "upgrades?mode=set&upgradetime=2000-01-01T00:00:00Z&protocolversion=9&basereserve=5000000"
+stellar-core --c "upgrades?mode=set&upgradetime=2000-01-01T00:00:00Z&protocolversion=11&basereserve=5000000"
 
 #
 # Friendbot account (used to fund other accounts)
